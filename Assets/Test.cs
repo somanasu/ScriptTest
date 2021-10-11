@@ -8,16 +8,16 @@ public class Test : MonoBehaviour
     void Start()
     {
         int[] array = new int[5];
-        array[0] = 0;
-        array[1] = 1;
-        array[2] = 2;
-        array[3] = 3;
-        array[4] = 4;    
+        array[0] = 34;
+        array[1] = 28;
+        array[2] = 73;
+        array[3] = 13;
+        array[4] = 98;    
         for (int i = 0; i < 5; i++)
         {
             Debug.Log(array[i]);
         }
-        for (int  i= 4;  i == -1; i--)
+        for (int  i= 4;  i >= 0; i--)
         {
             Debug.Log(array[i]);
         }
